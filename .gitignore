@@ -1,0 +1,16 @@
+*.autosave
+*.pyc
+*.user
+*~
+.*.swp
+.DS_Store
+.sw[a-z]
+Thumbs.db
+tags
+tegra/
+bin/
+3rdparty/
+cmake/
+include/
+modules/
+LICENSE

@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="VideoCapture.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VideoCapture"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Image Name="Preview" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="40"></Image>
+        <MediaElement x:Name="MediaElement_PLAY" />
+    </Grid>
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton x:Name="BUTTON_NEARBY" Label="附近">
+                <AppBarButton.Icon>
+                    <SymbolIcon Symbol="Map"/>
+                </AppBarButton.Icon>
+            </AppBarButton>
+            <AppBarButton x:Name="BUTTON_ORDER" Label="命令" Click="BUTTON_ORDER_Click">
+                <AppBarButton.Icon>
+                    <SymbolIcon Symbol="Microphone"/>
+                </AppBarButton.Icon>
+            </AppBarButton>
+            <AppBarButton x:Name="BUTTON_LANGUANGE" Label="语言" Click="BUTTON_LANGUANGE_Click">
+                <AppBarButton.Icon>
+                    <SymbolIcon Symbol="Globe"/>
+                </AppBarButton.Icon>
+                <DatePicker Height="100" Width="100"/>
+            </AppBarButton>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>
