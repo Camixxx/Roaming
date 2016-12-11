@@ -1,12 +1,12 @@
-
 package com.roaming.ringo.visionroaming;
+
 
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -27,7 +27,8 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
-public class DescribeActivity extends ActionBarActivity {
+
+public class DemoActivity extends AppCompatActivity {
 
     // Flag to indicate which task is to be performed.
     private static final int REQUEST_SELECT_IMAGE = 0;
@@ -98,7 +99,7 @@ public class DescribeActivity extends ActionBarActivity {
         mEditText.setText("");
 
         Intent intent;
-        intent = new Intent(DescribeActivity.this, com.roaming.ringo.visionroaming.helper.SelectImageActivity.class);
+        intent = new Intent(DemoActivity.this, com.roaming.ringo.visionroaming.helper.SelectImageActivity.class);
         startActivityForResult(intent, REQUEST_SELECT_IMAGE);
     }
 

@@ -6,10 +6,9 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
 
 
-
     <!-- Please refer to https://www.projectoxford.ai/ to get your subscription key -->
     <!-- If you have one subscription key, you can add it here to use the service -->
-    <string name="subscription_key">26493fbfd6dd483a91699d738dd59805</string>
+    <string name="subscription_key">4a094a19f4764c8c8982c28ecbf81822</string>
 
     <string name="add_subscription_key_tip_title">Subscription Key is Needed</string>
     <string name="add_subscription_key_tip">Please put your subscription key to source file \"app/res/values/strings.xml\" to enable Vision API calls.</string>
