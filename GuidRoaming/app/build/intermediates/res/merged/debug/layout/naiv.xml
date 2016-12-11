@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical">
+
+    <Button
+    android:id="@+id/start_naiv"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:textColor="#ffffff"
+    android:background="#000000"
+    android:text="开  始  导  航"
+    android:textSize="18dp"
+    />
+  
+    <com.amap.api.navi.AMapNaviView
+        android:id="@+id/navi_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

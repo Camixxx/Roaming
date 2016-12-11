@@ -1,0 +1,149 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:2:1-61:12
+	package
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:12:1-63
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:12:18-60
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:14:1-77
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:14:18-74
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:16:1-75
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:16:18-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:18:1-72
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:18:18-69
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:20:1-71
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:20:18-68
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:22:1-77
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:22:18-74
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:24:1-66
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:24:18-64
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:26:1-67
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:26:18-65
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:28:1-74
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:28:18-72
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:30:1-74
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:30:18-72
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:32:1-71
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:32:18-69
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:33:2-70
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:33:19-67
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:34:2-77
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:34:19-74
+application
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:37:5-59:19
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:40:9-41
+	android:allowBackup
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:38:9-35
+	android:icon
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:39:9-45
+	android:theme
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:41:9-40
+service#com.amap.api.location.APSService
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:42:9-76
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:42:18-65
+meta-data#com.amap.api.v2.apikey
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:43:10-45:63
+	android:value
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:45:13-61
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:44:13-50
+activity#com.example.g_demo.MainActivity
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:46:9-54:23
+	android:label
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:48:15-47
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:47:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:49:13-53:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:50:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:52:17-77
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:52:27-74
+activity#com.example.g_demo.Base_Naiv
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:55:12-62
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:55:24-49
+activity#com.example.g_demo.SRController
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:56:16-69
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:56:28-56
+activity#com.example.g_demo.Naiv
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:57:12-57
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:57:24-44
+activity#com.example.g_demo.Navi
+ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:58:23-68
+	android:name
+		ADDED from C:\Users\CamiXXX\Desktop\Roaming\GuidRoaming\app\src\main\AndroidManifest.xml:58:35-55
